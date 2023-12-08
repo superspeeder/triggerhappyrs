@@ -5,9 +5,9 @@ use bevy::prelude::Component;
 #[derive(Component)]
 pub struct DebugName(pub String);
 
-#[derive(Component)]
-pub struct CameraMarker(pub usize);
 
+#[derive(Component)]
+pub struct FunnyCircle(pub f32, pub f32);
 
 
 // Component Implementations
